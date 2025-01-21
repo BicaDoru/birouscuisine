@@ -76,6 +76,7 @@ A web platform that allows users to browse and share recipes. Users can interact
 ---
 
 ## Future Improvements
+- Add user roles, such as administrator and basic user.
 - Implement recipe ratings and comments.
 - Enhance ChatGPT responses with more precise nutritional insights.
 - Allow users to save and organize their favorite recipes.
