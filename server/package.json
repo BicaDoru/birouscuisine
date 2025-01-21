@@ -1,0 +1,24 @@
+{
+  "name": "recipe-sharing-platform",
+  "version": "1.0.0",
+  "description": "A web platform that allows users to browse and share recipes. Users can interact with the ChatGPT API to receive personalized recipe suggestions, cooking tips, and nutritional advice, enhancing user engagement by providing tailored content and answers to their cooking-related questions.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "fuse.js": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.3",
+    "openai": "^4.71.1",
+    "recipe-sharing-platform": "file:"
+  }
+}
